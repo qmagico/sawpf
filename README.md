@@ -8,3 +8,5 @@ Esse é uma modificação do ["Salve a Web, por favor"](https://github.com/globo
 
 Exemplo abaixo:
 
+![SponsorThis](https://raw.github.com/qmagico/sawpf/master/screenshot.png)
+
