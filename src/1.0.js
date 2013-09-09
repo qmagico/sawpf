@@ -114,7 +114,7 @@
 
   var html = '<div><p><strong>Seu ' +
     ((isIE) ? "Internet Explorer" : "Firefox") +
-    ' está desatualizado.</strong><br/>Para uma melhor visualização do site atualize-o ou escolha outro navegador.</p>' +
+    ' está desatualizado.</strong><br/>Para utilizar o site, atualize-o, ou escolha outro navegador.</p>' +
     '<ul><li>' +
     CHROME_BUTTON + '</li><li>' + FIREFOX_BUTTON + '</li><li>' + IE_BUTTON +
     '</li></ul>' +
