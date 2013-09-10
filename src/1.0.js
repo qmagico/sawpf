@@ -186,17 +186,19 @@
             '      <li>Carregamento de páginas muito rápido;</li>' +
             '      <li>Maior área de visualização de página.</li>' +
             '    </ul>' +
-            '  </div>' +
-            '  <h1>Se você não quer (<strong>ou não pode</strong>) instalar um navegador diferente no seu computador...</h1>' +
+            '  </div>';
 
+    if (isIE){
+        html += ''+
+            '  <h1>Se você não quer (<strong>ou não pode</strong>) instalar um navegador diferente no seu computador...</h1>' +
             '  <div class="download-chrome-frame">' +
             '    <h1>Considere instalar o <strong>Chrome Frame</strong></h1>' +
             '    <a href="http://www.google.com/chromeframe?prefersystemlevel=true">http://www.google.com/chromeframe?prefersystemlevel=true</a>' +
             '     <p>O Chrome Frame é uma extensão do Internet Explorer que habilita novas tecnologias como HTML5 e CSS3 nas versões 6, 7, 8 e 9 do IE. Instalar o Chrome Frame é rápido, fácil, gratuito, e não necessita de privilégios de Administrador.</p>' +
             '     <p>O Chrome Frame é completamente “invisível” e não muda em nada a maneira como você usa o Internet Explorer. Mas ele vai proporcionar a mesma velocidade e experiência de visualização disponível no Google Chrome, sem a necessidade de trocar de navegador.</p>' +
-            '  </div>' +
-
-            '</div>'
+            '  </div>';
+    }
+    html += '</div>';
 
     var container = document.createElement('div');
     container.id = 'sawpf';
